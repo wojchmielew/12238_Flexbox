@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,700');
+
+
+body {
+  	margin: 0;
+  	font-family: 'Josefin Sans', sans-serif;	
+}
+  	  	
+.container {
+	display: -webkit-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+header > nav ul > li > a {
+    color: #444444;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 72px;
+    font-weight: 100;
+}
+
+.gallery {
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-top: 7px;
+	text-align: center;
+}
+
+.gallery img {
+	width: 400px;
+	height: 400px;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box_txt {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.box_txt > div {
+	background: #555;
+	width: 200px;
+}
+
+.vertical-container {
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 20px ;
+	/* border: 5px solid #F22613; */
+	display: -webkit-flex;
+	display:         flex;
+	-webkit-align-items: center;
+	          align-items: center;
+	-webkit-justify-content: center;
+	          justify-content: center;
+}
+		
+.flex-element {
+	color: #fff;
+	line-height: 25px;
+	padding: 15px;
+	text-align: center;
+	width: 208px;
+	height: 149px;;
+	background: #444444;
+	margin: 2px;
+	display: -webkit-flex;
+	display: 		 flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.f_container {
+	background: #000;	
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	display: -webkit-flex;
+	display:         flex;
+}
+	
+.f_box {
+	color: #fff;
+	line-height: 25px;
+	padding: 15px;
+	text-align: center;
+	width: 200px;
+	height: 100px;
+	display: -webkit-flex;
+	display: 		 flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.adress {
+	flex: 1;
+}
+
+.grow {
+	flex: 2;
+}
+
+.name {
+	flex: 1;
+	font-size: 32px;
+	font-weight: 700;
+}
+		
+.name:before {
+    font-size: 54px;
+    color: #6ae9e4;
+}
+
+.name:before { 
+	content: '×';
+	transform: translate(-5px,-5px);
+}
